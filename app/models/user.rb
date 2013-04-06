@@ -9,5 +9,5 @@ class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation, :remember_me
   # attr_accessible :title, :body
 
-  has_many :pins
+  has_many :pins, dependent: :destroy # destroy a user's pins when they delete their account (prevent orphans)
 end

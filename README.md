@@ -3,7 +3,7 @@
 This project is based on the sample application for
 [*One Month Rails: Teach Yourself to Code*](http://onemonthrails.com)
 
-by [Paul Kincaid-Smith](www.linkedin.com/in/paulkincaidsmith/)
+by [Paul Kincaid-Smith](https://www.linkedin.com/in/paulkincaidsmith/)
 
 I am extending instructor Mattan Griffel's work by adding event notifications delivered by email. This will help other One Month Rails students add email delivery to their projects.
 
